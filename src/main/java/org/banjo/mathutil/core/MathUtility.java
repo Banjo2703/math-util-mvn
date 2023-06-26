@@ -37,7 +37,25 @@ public class MathUtility {
 
         return product;
     }
+    
+    public static long getFactorial1(int n) {
+
+        if (n < 0 || n > 20) {
+            throw new IllegalArgumentException("Invalid n. n must be between 0..20, plz");
+        }
+
+        if (n == 0 || n == 1) {
+            return 1;
+        }
+        return n * getFactorial1(n - 1);
+        //công thức đệ quy - recursion
 }
+}
+// 5! = 1.2.3.4.5 = 4! x 5 = 5 x 4!
+// 4! = 4 x 3!
+// 3! = 3 x 2!
+// 2! = 2 x 1!
+// 1! = 1 DỪNG LẠI HỎI NGƯỢC LÊN TRÊN
 
 // TDD: Test Driven Development phát triển phần mềm theo phong cách code đến đâu kiểm thử đến đó,
 // viết code và viết test case/ test run diễn ra song song, đan xen
