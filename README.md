@@ -8,6 +8,6 @@
 * Coming soon......
 
 ### Screenshots
-![DDT with JUnit](https://github.com/banjoker-tuann/math-util-mvn/blob/main/screenshots/DTT%20unit%20test.png)
+![DDT with JUnit](https://github.com/banjoker-tuann/math-util-mvn/blob/main/screenshots/DDT%20with%20unit%20test.png)
 
 #### Copyright &#169; 2023 banjoker-tuann
